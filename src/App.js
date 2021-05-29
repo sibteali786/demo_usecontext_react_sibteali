@@ -4,7 +4,9 @@ import Parent from './Parent.js'
 import ValueContext from './ValueContext';
 function App() {
   // let [number,setnumber] = useState(45);
-  let value = 81;
+  // let value = [number,setNumber] = useState(48);
+  let value = useState(48);
+  // where value[0] has the array and value[1] has the function
   return (
     <ValueContext.Provider value={value}>
 
